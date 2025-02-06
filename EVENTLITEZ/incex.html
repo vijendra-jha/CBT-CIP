@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVENTILITEZ</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to EVENTILITEZ</h1>
+    <p>Your go-to place for managing and viewing events</p>
+  </header>
+  
+  <section class="add-event">
+    <h2>Add New Event</h2>
+    <form id="eventForm">
+      <input type="text" id="eventTitle" placeholder="Event Title" required />
+      <input type="date" id="eventDate" required />
+      <textarea id="eventDescription" placeholder="Event Description" required></textarea>
+      <button type="submit">Add Event</button>
+    </form>
+  </section>
+  
+  <section class="event-list">
+    <h2>Upcoming Events</h2>
+    <ul id="eventList">
+      <!-- List of events will be dynamically inserted here -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 EVENTILITEZ. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

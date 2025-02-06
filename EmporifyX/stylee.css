@@ -1,0 +1,36 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-bg {
+  background-color: #343a40;
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-bg h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-bg p {
+  font-size: 1.25rem;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
